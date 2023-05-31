@@ -1,0 +1,72 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-color: black;
+}
+
+
+main{
+    background-color: rgb(9, 19, 134);
+    color: #0b3d7f;
+    padding: 5rem;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+div.carouselObject{
+    position: relative;
+    width: 100%;
+    height: 600px;
+  
+}
+main img{
+    width: 100%;
+    height: 100%;
+    display: block;
+   
+ 
+}
+ 
+div.preview, div.next{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: auto;
+background-color: rgb(182, 6, 6);
+    font-size: 30px;
+    cursor:pointer;
+    text-align: center;
+
+}
+
+div.next{
+    position: absolute;
+    top :46%;
+    right:1% ;
+    padding-bottom: 5px;
+}
+
+div.preview{
+    position: absolute;
+    bottom:50%;
+    left:1% ;
+}
+
+div.carouselObject .carousel-element {
+  display: none;
+    height: 100%;
+    color: rgb(209, 198, 198);
+}
+
+div.carouselObject .carousel-element.visible{
+    display: block;
+    
+}
+
+
+
